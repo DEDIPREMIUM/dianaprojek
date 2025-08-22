@@ -18,8 +18,7 @@ apt update
 apt install -y curl wget nginx nodejs npm postgresql
 
 # Setup web application
-git clone <your-repo-url> /var/www/vps-manager
-cd /var/www/vps-manager
+git clone https://github.com/DEDIPREMIUM/dianaprojek.git /var/www/vps-manager
 npm install
 
 # Setup database
